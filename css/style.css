@@ -1,0 +1,62 @@
+/* Color Values
+
+Blue:   #1D4A98
+Green:  #32A894
+Yellow: #FFA81A
+Pink:   #F94D69
+Orange: #FE562B
+Brown:  #443D3F
+
+*/
+
+@font-face {
+    font-family: acre;
+    src: url(../CSS/Fonts/Acre-Medium.woff) format('woff');
+}
+
+* {
+  font-family:acre;
+  letter-spacing: 1px;
+}
+
+/*  LANDING PAGE / JUMBOTRON START */
+.jumbotron {
+  background-image: url('../imgs/photos/HeaderPhoto1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+
+}
+
+/* Positioning & Color for Title Div*/
+.jumboText {
+    padding-left: 14%;
+    font-size: 9.5vh;
+    color: white;
+    position: absolute;
+    top: 45vh;
+    left: 0;
+    line-height: 10vh;
+
+}
+
+/* Positioning & Color for Pink Title Tear Div */
+.jumboTear {
+    margin-left: 14%;
+    padding-left: 1%;
+    padding-right: 0%;
+    color: white;
+    position: absolute;
+    top: 66vh;
+    left: 0;
+    width: 60%;
+    font-size: 5vh;
+    background: #ee6a7c;
+    padding: .8%;
+}
+
+
+/* ALL CONNECTED SECTION START */
