@@ -269,10 +269,6 @@ Brown:  #443D3F
   background-image: url('../imgs/photos/getInvolved/getInvolved-Index1.jpg');
 }
 
-#index2 {
-  background-image: url('../imgs/photos/getInvolved/getInvolved-Index2.jpg');
-}
-
 #atHome {
   background-image: url('../imgs/photos/getInvolved/getInvolved-atHome.jpg');
 }
@@ -292,4 +288,19 @@ Brown:  #443D3F
 }
 #donations {
   background-image: url('../imgs/photos/getInvolved/getInvolved-donations.jpg');
+}
+
+
+/* //////////////////////////////////////////// */
+/* ////////////// ABOUT US   ////////////////// */
+/* //////////////////////////////////////////// */
+
+
+.aboutUS {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-Index2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
