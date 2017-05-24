@@ -19,7 +19,26 @@ Brown:  #443D3F
   letter-spacing: 1px;
 }
 
+/* /////////////////////////// */
+/* ///////   NAVBAR    /////// */
+/* /////////////////////////// */
+
+.navbar{
+  background: rgba(255, 255, 255, 0.5);
+  color: #F94D69;
+}
+/* color nav links */
+
+.nav-link {
+  color: #F94D69;
+}
+
+/* /////////////////////////////// */
 /*  LANDING PAGE / JUMBOTRON START */
+/* /////////////////////////////// */
+
+
+
 .jumbotron {
   background-image: url('../imgs/photos/HeaderPhoto1.jpg');
   background-attachment: fixed;
@@ -31,7 +50,9 @@ Brown:  #443D3F
 
 }
 
-/* Positioning & Color for Title Div*/
+/* ////////////////////////////////////  */
+/* ////// JUMBO  Title Div ////////////  */
+/* ////////////////////////////////////  */
 .jumboText {
     padding-left: 14%;
     font-size: 9.5vh;
@@ -43,7 +64,6 @@ Brown:  #443D3F
 
 }
 
-/* Positioning & Color for Pink Title Tear Div */
 .jumboTear {
     margin-left: 14%;
     padding-left: 1%;
@@ -58,5 +78,218 @@ Brown:  #443D3F
     padding: .8%;
 }
 
-
+/* /////////////////////////// */
 /* ALL CONNECTED SECTION START */
+/* /////////////////////////// */
+
+.wheelText {
+  color: #32A894;
+  font-size: 5vh;
+
+}
+
+.wheelItem {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+#wheelHealthySoils {
+  background-image: url('../imgs/icons/wheel/Wheel Screenshots-01.svg');
+}
+
+#wheelHealthyPlants {
+  background-image: url('../imgs/icons/wheel/Wheel Screenshots-02.svg');
+}
+
+#wheelHealthyPeople {
+  background-image: url('../imgs/icons/wheel/Wheel Screenshots-03.svg');
+}
+
+#wheelHealthyCommunities {
+  background-image: url('../imgs/icons/wheel/Wheel Screenshots-04.svg');
+}
+
+#wheelHealthyEconomies {
+  background-image: url('../imgs/icons/wheel/Wheel Screenshots-06.svg');
+}
+
+#wheelHealthyPlanet {
+  background-image: url('../imgs/icons/wheel/Wheel Screenshots-07.svg');
+}
+
+/* ////////////////////////////////////////// */
+/* ALL CONNECTED - HEALTH SOIL SCROLL HORIZON */
+/* ////////////////////////////////////////// */
+
+.allConnectedScroll {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#healthySoils {
+  background-image: url('../imgs/photos/wheel/wheel-soil.jpg');
+}
+
+#healthyPlants {
+  background-image: url('../imgs/photos/wheel/wheel-plants.jpg');
+}
+
+#healthyPeople {
+  background-image: url('../imgs/photos/wheel/wheel-people.jpg');
+}
+
+#healthyCommunities {
+  background-image: url('../imgs/photos/wheel/wheel-communities.jpg');
+}
+
+#healthyEconomies {
+  background-image: url('../imgs/photos/wheel/wheel-economies.jpg');
+}
+
+#healthyPlanet {
+  background-image: url('../imgs/photos/wheel/wheel-planet.jpg');
+}
+
+/* /////////////////////////////////////////////// */
+/* ///  6F 's Of Soil - START VERTICAL SCROLL  /// */
+/* /////////////////////////////////////////////// */
+
+.sixFsDEMO {
+  color:#32A894;
+}
+
+
+.sixFs {
+  color: black;
+  font-size: 5vh;
+}
+
+.sixFs span{
+  color: #32A894;
+  font-size: 5vh;
+}
+
+#sixFsButton {
+  color: #32A894;
+  font-size: 5vh;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: #1D4A98;
+}
+
+/* /////////////////////////////////////////////// */
+/* ///  6F 's Of Soil - START HORIZONTAL SCROLL // */
+/* /////////////////////////////////////////////// */
+
+.sixFsScroll {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+#sixFsFood {
+  background-image: url('../imgs/photos/fScroll/6Fs-Scroll-Food.jpg');
+}
+
+#sixFsFilter {
+  background-image: url('../imgs/photos/fScroll/6Fs-Scroll-Filter.jpg');
+}
+
+#sixFsFiber {
+  background-image: url('../imgs/photos/fScroll/6Fs-Scroll-Fiber.jpg');
+}
+
+#sixFsFoundation {
+  background-image: url('../imgs/photos/fScroll/6Fs-Scroll-Foundation.jpg');
+}
+
+#sixFsFarmaceuticals {
+  background-image: url('../imgs/photos/fScroll/6Fs-Scroll-Farmaceuticals.jpg');
+}
+
+#sixFsFun {
+  background-image: url('../imgs/photos/fScroll/6Fs-Scroll-Fun.jpg');
+}
+
+
+/* //////////////////////////////////////////// */
+/* ///nSTORY OF SOIL GENESIS - mediaContent /// */
+/* //////////////////////////////////////////// */
+
+.mediaContent {
+  background-image: url('../imgs/photos/mediaBackground.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.genesisTear {
+    margin-left: 0;
+    padding-left: 1%;
+    padding-right: 0%;
+    color: white;
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    width: 60%;
+    font-size: 5vh;
+    background: #ee6a7c;
+    padding: .8%;
+}
+
+
+
+/* //////////////////////////////////////////// */
+/* ////////////// GET INVOLVED //////////////// */
+/* //////////////////////////////////////////// */
+
+
+.involvedItem {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#index1 {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-Index1.jpg');
+}
+
+#index2 {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-Index2.jpg');
+}
+
+#atHome {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-atHome.jpg');
+}
+
+#inCommunity {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-inCommunity.jpg');
+}
+
+#legislation {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-legislation.jpg');
+}
+#socialMedia {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-socialMedia.jpg');
+}
+#education {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-education.jpg');
+}
+#donations {
+  background-image: url('../imgs/photos/getInvolved/getInvolved-donations.jpg');
+}

@@ -19,14 +19,18 @@
 <body>
 
   <!--  Navigation Bar-->
-  <nav class="navbar navbar-toggleable-md bg-faded fixed-top">
+  <nav class="navbar navbar-toggleable-md fixed-top">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">Logo</a>
+
+    <a class="navbar-brand" href="#">
+      <img src="logo_pink.png" width="180" height="60" alt="">
+    </a>
+
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav nav-fill">
         <li class="nav-item ">
@@ -45,16 +49,17 @@
     </div>
   </nav>
 
+
  <!-- Jumbotron -->
- <div class="container-fluid">
-<div class="jumbotron">
+
+<div class="container-fluid jumbotron">
   <h2 class="jumboText">we all share<br>common ground.<br></h2>
   <h3 class="jumboTear">get dirty. get connected.</h3>
 
  </div>
 
- <div class="container-fluid">
-   <div class="allConnected">
+
+ <div class="container-fluid allConnected">
      <!-- TODO: Set Text Color, Center & Animate transform on Scroll Down to smaller text and center of wheel -->
      <div class="wheelText text-center"> <p> we believe that a healthy life <br>
        starts with healthy soil </p>
@@ -67,47 +72,55 @@
      <div class="wheelItem" id="wheelHealthyEconomies"></div>
      <div class="wheelItem" id="wheelHealthyPlanet"></div>
 
+
+     <div class="wheelText text-center"> <p> BEGIN HORIZONTAL SCROLLING FEATURE <br>  Index: All Connected
+     </div>
      <!--  TODO: Add Background Images, Add Icons & Text, Position Icons -->
      <!--  TODO: Add Scrolling Functionaly-->
-     <div class="allConnectedScroll" id="HealthySoils"></div>
-     <div class="allConnectedScroll" id="HealthyPlants"></div>
-     <div class="allConnectedScroll" id="HealthyPeople"></div>
-     <div class="allConnectedScroll" id="HealthyCommunities"></div>
-     <div class="allConnectedScroll" id="HealthyEconomies"></div>
-     <div class="allConnectedScroll" id="HealthyPlanet"></div>
+     <div class="allConnectedScroll" id="healthySoils"></div>
+     <div class="allConnectedScroll" id="healthyPlants"></div>
+     <div class="allConnectedScroll" id="healthyPeople"></div>
+     <div class="allConnectedScroll" id="healthyCommunities"></div>
+     <div class="allConnectedScroll" id="healthyEconomies"></div>
+     <div class="allConnectedScroll" id="healthyPlanet"></div>
 
      <!--  TODO: When done scrolling reset back to completed Wheel Diagram -->
 
-
-   </div>
+</div>
 
 <div class="container-fluid 6FsOfSoil">
 
     <!-- TODO: Add Scroll Down to change between Icons, Text, and Color -->
-  <div class="6F text-center">
+  <div class="sixFs text-center">
+      <img class="sixFsIcon"  id="sixFsIcon" src='6Fs-Filter No Text.svg'>
       <p class="text-center"  id="fundamental" style="">
        Soils are fundamental to life on Earth.
        <br>
        If you    <span id="changeText">Breathe Air/Eat Food/Wear Clothes</span>,    you depend on soil.
      </p>
-     <button type="button" class="primary">find out how!</button>
+     <button type="button" class="btn" id="sixFsButton">find out how!</button>
+
+     <div class="sixFsDEMO text-center"> <p> BEGIN HORIZONTAL SCROLLING FEATURE <br>  Index: Six F's of Soil
+     </div>
 
      <!--  TODO: Add Background Images, Add Icons & Text, Position Icons -->
      <!--  TODO: Add Scrolling Functionaly-->
-     <div class="6FScroll" id="Food"></div>
-     <div class="6FScroll" id="Filter"></div>
-     <div class="6FScroll" id="Fiber"></div>
-     <div class="6FScroll" id="Foundation"></div>
-     <div class="6FScroll" id="Farmaceuticals"></div>
-     <div class="6FScroll" id="Fun"></div>
-
+     <div class="sixFsScroll" id="sixFsFood"></div>
+     <div class="sixFsScroll" id="sixFsFilter"></div>
+     <div class="sixFsScroll" id="sixFsFiber"></div>
+     <div class="sixFsScroll" id="sixFsFoundation"></div>
+     <div class="sixFsScroll" id="sixFsFarmaceuticals"></div>
+     <div class="sixFsScroll" id="sixFsFun"></div>
       <!--  TODO: When done scrolling: Reset to chapter index w/ All icons across -->
 
  </div>
 </div>
+
       <!--  TODO: Background Image, Video Player (video to be created)-->
 <div class="container-fluid mediaContent">
+ <h3 class="genesisTear"> THE STORY OF SOIL GENESIS </h3>
   <div class="soilGenesis">
+
   </div>
 
 </div>
@@ -117,6 +130,8 @@
 <!--  TODO: Add Scrolling Functionaly-->
 <div class="container-fluid getInvolved">
 
+  <div class="involvedItem" id="index1"></div>
+  <div class="involvedItem" id="index2"></div>
   <div class="involvedItem" id="atHome"></div>
   <div class="involvedItem" id="inCommunity"></div>
   <div class="involvedItem" id="legislation"></div>
@@ -130,6 +145,7 @@
 <div class="container-fluid">
 <div class="aboutUs">
 
+</div>
 </div>
 
 
