@@ -3,7 +3,7 @@
 // Blue:   #1D4A98
 // Green:  #32A894
 // Yellow: #FFA81A
-// Pink:   #F94D69
+// Pink:   #DF6573
 // Orange: #FE562B
 // Brown:  #443D3F
 
@@ -11,7 +11,7 @@
 // Nested Array [icon,text,color]
 var changeArray =[ ["6Fs-Filter No Text.svg","Breathe Air","#1D4A98"],
                    ["6Fs-Filter No Text.svg","Drink Water","#1D4A98"],
-                   ["6Fs-Food No Text.svg","Eat Food","#F94D69"],
+                   ["6Fs-Food No Text.svg","Eat Food","#DF6573"],
                    ["6Fs-Fiber+Fuel No Text.svg","Wear Clothes","#FFA81A"],
                    ["6Fs-Foundation No Text.svg","Live in a Shelter","#443D3F"],
                    ["6Fs-Farmaceuticals No Text.svg","Use Medicine","#FE562B"],

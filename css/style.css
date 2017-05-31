@@ -3,7 +3,7 @@
 Blue:   #1D4A98
 Green:  #32A894
 Yellow: #FFA81A
-Pink:   #F94D69
+Pink:   #DF6573
 Orange: #FE562B
 Brown:  #443D3F
 
@@ -25,12 +25,12 @@ Brown:  #443D3F
 
 .navbar{
   background: rgba(255, 255, 255, 0.5);
-  color: #F94D69;
+  color: #DF6573;
 }
 /* color nav links */
 
 .nav-link {
-  color: #F94D69;
+  color: #DF6573;
 }
 
 /* /////////////////////////////// */
@@ -82,6 +82,8 @@ Brown:  #443D3F
 /* ALL CONNECTED SECTION START */
 /* /////////////////////////// */
 
+
+
 .wheelText {
   color: #32A894;
   font-size: 5vh;
@@ -95,6 +97,9 @@ Brown:  #443D3F
   background-size: cover;
   height: 100vh;
 
+}
+#wheel {
+  background-image: url('../imgs/photos/wheel/soilWheel.jpg');
 }
 
 #wheelHealthySoils {
@@ -250,6 +255,66 @@ Brown:  #443D3F
     padding: .8%;
 }
 
+#videos {
+  background-image: url('');
+}
+
+#infographics {
+  background-image: url('');
+}
+
+#educationalTools {
+  background-image: url('');
+}
+
+#soilProfiles {
+  background-image: url('');
+}
+
+
+/* //////////////////////////////////////////// */
+/* ////////////// DIG DEEPER   //////////////// */
+/* //////////////////////////////////////////// */
+
+
+.digDeeper {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#dig1 {
+  background-image: url('../imgs/photos/dig/digDeeper1.jpg');
+}
+#soilSpheres {
+  background-image: url('../imgs/photos/dig/digSpheres.jpg');
+}
+
+#soilFormingFactors {
+  background-image: url('../imgs/photos/dig/soilFromingFactors.jpg');
+}
+
+#soilEnvironment {
+  background-image: url('../imgs/photos/dig/SoilEnvironment.jpg');
+}
+
+#soilBiology {
+  background-image: url('../imgs/photos/dig/soilBiology.jpg');
+}
+#soilChemistry {
+  background-image: url('../imgs/photos/dig/soilChemistry.jpg');
+}
+#soilComplexity {
+  background-image: url('../imgs/photos/dig/soilComplexity.jpg');
+}
+#soilHealthDifferent {
+  background-image: url('../imgs/photos/dig/soilHealthDifferent.jpg');
+}
+#soilRisk {
+  background-image: url('../imgs/photos/dig/soilRisk.jpg');
+}
 
 
 /* //////////////////////////////////////////// */
@@ -303,4 +368,35 @@ Brown:  #443D3F
   background-repeat:no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+/* NEXT ARROWS */
+
+a.nav {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+  top: 40vh;
+  right:0;
+  background: rbg(0,0,0,0);
+  padding: 10px;
+  z-index: 99;
+}
+
+a.nav.next {
+  right: 0;
+}
+
+a.nav.next img {
+  height: 100px;
+  width: 100px;
+}
+
+a.nav.prev {
+  left: 0;
+}
+
+a.nav.prev img{
+  height: 100px;
+  width: 100px;
 }

@@ -18,6 +18,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <body>
 
+  <main id="barba-wrapper">
+
+
   <!--  Navigation Bar-->
   <nav class="navbar navbar-toggleable-md fixed-top">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +62,7 @@
  </div>
 
 
- <div class="container-fluid allConnected">
+ <div class="container-fluid allConnected barba-container" data-next="healthySoils.html">
      <!-- TODO: Set Text Color, Center & Animate transform on Scroll Down to smaller text and center of wheel -->
      <div class="wheelText text-center"> <p> we believe that a healthy life <br>
        starts with healthy soil </p>
@@ -72,6 +75,8 @@
      <div class="wheelItem" id="wheelHealthyEconomies"></div>
      <div class="wheelItem" id="wheelHealthyPlanet"></div>
 
+
+           <a class="nav next" href="healthySoils.html">NEXT</a>
 
      <div class="wheelText text-center"> <p> BEGIN HORIZONTAL SCROLLING FEATURE <br>  Index: All Connected
      </div>
@@ -145,12 +150,14 @@
 
 </div>
 
-
+</main>
 </body>
 
 
 
 <footer>
+  <script src= "nextprev.js"></script>
+  <script src="barba.js"></script>
   <script src="scripts/main.js"></script>
 </footer>
 

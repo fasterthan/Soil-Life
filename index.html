@@ -1,0 +1,149 @@
+<html>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Soil Life</title>
+  <meta name="" content="">
+  <meta name="" content="">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<body>
+
+  <main id="barba-wrapper">
+
+
+  <!--  Navigation Bar-->
+  <nav class="navbar navbar-toggleable-md fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <a class="navbar-brand" href="#">
+      <img src="logo_pink.png" width="180" height="60" alt="">
+    </a>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-fill">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">about us </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">soil matters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">get involved</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+ <!-- Jumbotron -->
+
+<div class="container-fluid jumbotron">
+  <h2 class="jumboText">we all share<br>common ground.<br></h2>
+  <h3 class="jumboTear">get dirty. get connected.</h3>
+
+ </div>
+
+
+ <div class="container-fluid allConnected barba-container" data-next="healthySoils.html">
+     <!-- TODO: Set Text Color, Center & Animate transform on Scroll Down to smaller text and center of wheel -->
+     <div class="wheelText text-center">
+       <a class="nav next" href="healthySoils.html">
+         <img src="arrow.png">
+       </a>
+     </div>
+     <!-- TODO: Add Icons, Set Positions (How to position divs in a circle about a center?), Reveal each div on Scroll Down -->
+          <div class="wheelItem" id="wheel"></div>
+     <!-- <div class="wheelItem" id="wheelHealthySoils"></div>
+     <div class="wheelItem" id="wheelHealthyPlants"></div>
+     <div class="wheelItem" id="wheelHealthyPeople"></div>
+     <div class="wheelItem" id="wheelHealthyCommunities"></div>
+     <div class="wheelItem" id="wheelHealthyEconomies"></div>
+     <div class="wheelItem" id="wheelHealthyPlanet"></div> -->
+
+
+
+<div class="container-fluid 6FsOfSoil">
+
+    <!-- TODO: Add Scroll Down to change between Icons, Text, and Color -->
+  <div class="sixFs text-center" style="height:100vh">
+      <img class="sixFsIcon"  id="sixFsIcon" src='6Fs-Filter No Text.svg'>
+      <p class="text-center"  id="fundamental" style="">
+       Soils are fundamental to life on Earth.
+       <br>
+       If you    <span id="changeText">Breathe Air/Eat Food/Wear Clothes</span>,    you depend on soil.
+     </p>
+     <button type="button" class="btn" id="sixFsButton">find out how!</button>
+
+      <a class="nav next" href="sixFsFood.html">
+        <img src="arrow.png">
+      </a>
+
+      <!--  TODO: When done scrolling: Reset to chapter index w/ All icons across -->
+
+ </div>
+</div>
+
+      <!--  TODO: Background Image, Video Player (video to be created)-->
+<div class="container-fluid mediaContent">
+ <h3 class="genesisTear"> THE STORY OF SOIL GENESIS </h3>
+  <div class="soilGenesis">
+
+  </div>
+
+</div>
+
+
+<div class="container-fluid digDeeper.html">
+
+  <div class="digDeeper" id="dig1">   <a class="nav next" href="soilSpheres.html">
+    <img src="arrow.png">
+    </a> </div>
+
+
+</div>
+
+<!--  TODO: Add Background Images, Add Icons & Text, Position Icons -->
+<!--  TODO: Add Scrolling Functionaly-->
+<div class="container-fluid getInvolved">
+
+  <div class="involvedItem" id="index1">
+    <a class="nav next" id="test" href="atHome.html">
+      <img src="arrow.png">
+    </a> </div>
+
+
+</div>
+
+<!--  TODO: Add Background Images, Text-->
+<div class="container-fluid aboutUs">
+
+</div>
+
+</main>
+</body>
+
+<footer>
+  <script src="nextprev.js"></script>
+  <script src="barba.js"></script>
+  <script src="scripts/main.js"></script>
+</footer>
+
+</html>
