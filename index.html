@@ -18,9 +18,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <body>
 
-  <main id="barba-wrapper">
-
-
+  <main id="barba-wrapper barba-container">
   <!--  Navigation Bar-->
   <nav class="navbar navbar-toggleable-md fixed-top">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,22 +29,22 @@
     </button>
 
     <a class="navbar-brand" href="#">
-      <img src="logo_pink.png" width="180" height="60" alt="">
+      <img src="logo.svg" width="180" height="60" alt="">
     </a>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav nav-fill">
         <li class="nav-item ">
-          <a class="nav-link" href="#">about us </a>
+          <a class="nav-link" href="index.html#aboutUs">about us </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">soil matters</a>
+          <a class="nav-link" href="index.html#6FsOfSoil">soil matters</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">videos</a>
+          <a class="nav-link" href="index.html#mediaContent">videos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">get involved</a>
+          <a class="nav-link" href="index.html#getInvolved">get involved</a>
         </li>
       </ul>
     </div>
@@ -62,9 +60,10 @@
  </div>
 
 
- <div class="container-fluid allConnected barba-container" data-next="healthySoils.html">
+ <div class="container-fluid allConnected" id="allConnected" data-prev="index.htm#allConnected" data-next="healthySoils.html">
      <!-- TODO: Set Text Color, Center & Animate transform on Scroll Down to smaller text and center of wheel -->
      <div class="wheelText text-center">
+       <a class="nav prev" href="">
        <a class="nav next" href="healthySoils.html">
          <img src="arrow.png">
        </a>
@@ -80,7 +79,7 @@
 
 
 
-<div class="container-fluid 6FsOfSoil">
+<div class="container-fluid 6FsOfSoil" id="6FsOfSoil">
 
     <!-- TODO: Add Scroll Down to change between Icons, Text, and Color -->
   <div class="sixFs text-center" style="height:100vh">
@@ -102,16 +101,18 @@
 </div>
 
       <!--  TODO: Background Image, Video Player (video to be created)-->
-<div class="container-fluid mediaContent">
+<div class="container-fluid mediaContent" id="mediaContent">
  <h3 class="genesisTear"> THE STORY OF SOIL GENESIS </h3>
   <div class="soilGenesis">
 
   </div>
-
+  <a class="nav next" id="test" href="videos.html">
+    <img src="arrow.png">
+  </a>
 </div>
 
 
-<div class="container-fluid digDeeper.html">
+<div class="container-fluid digDeeper.html" id="digDeeper">
 
   <div class="digDeeper" id="dig1">   <a class="nav next" href="soilSpheres.html">
     <img src="arrow.png">
@@ -122,7 +123,7 @@
 
 <!--  TODO: Add Background Images, Add Icons & Text, Position Icons -->
 <!--  TODO: Add Scrolling Functionaly-->
-<div class="container-fluid getInvolved">
+<div class="container-fluid getInvolved" id="getInvolved">
 
   <div class="involvedItem" id="index1">
     <a class="nav next" id="test" href="atHome.html">
@@ -133,7 +134,7 @@
 </div>
 
 <!--  TODO: Add Background Images, Text-->
-<div class="container-fluid aboutUs">
+<div class="container-fluid aboutUs" id="aboutUs">
 
 </div>
 
@@ -144,6 +145,7 @@
   <script src="nextprev.js"></script>
   <script src="barba.js"></script>
   <script src="scripts/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.1/TweenMax.min.js"></script>
 </footer>
 
 </html>

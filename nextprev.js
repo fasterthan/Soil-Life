@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
       this.originalThumb = lastElementClicked;
 
       Promise
-        .all([this.newContainerLoading, this.scrollTop()])
+            // .all([this.newContainerLoading, this.scrollTop()])
+        .all([this.newContainerLoading,])
         .then(this.movePages.bind(this));
     },
 

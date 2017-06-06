@@ -1,11 +1,12 @@
 /* Color Values
 
-Blue:   #1D4A98
-Green:  #32A894
-Yellow: #FFA81A
-Pink:   #DF6573
-Orange: #FE562B
-Brown:  #443D3F
+
+// Pink:    #ee6a7c
+// Yellow:  #fac718
+// Green:   #36ae99
+// Blue:    #195ba7
+// Brown:   #544d50
+// Orange:  #fa6a33
 
 */
 
@@ -25,12 +26,12 @@ Brown:  #443D3F
 
 .navbar{
   background: rgba(255, 255, 255, 0.5);
-  color: #DF6573;
+  color: #ee6a7c;
 }
 /* color nav links */
 
 .nav-link {
-  color: #DF6573;
+  color: #ee6a7c;
 }
 
 /* /////////////////////////////// */
@@ -85,7 +86,7 @@ Brown:  #443D3F
 
 
 .wheelText {
-  color: #32A894;
+  color: #;
   font-size: 5vh;
 
 }
@@ -183,11 +184,12 @@ Brown:  #443D3F
 
 #sixFsButton {
   color: #32A894;
+  font-family: acre;
   font-size: 5vh;
   background-color: white;
-  border-style: solid;
-  border-width: thin;
-  border-color: #1D4A98;
+  border-style: none;
+  border-width: none;
+  border-color: none;
 }
 
 /* /////////////////////////////////////////////// */
@@ -289,11 +291,11 @@ Brown:  #443D3F
   background-image: url('../imgs/photos/dig/digDeeper1.jpg');
 }
 #soilSpheres {
-  background-image: url('../imgs/photos/dig/digSpheres.jpg');
+  background-image: url('../imgs/photos/dig/soilSpheres.jpg');
 }
 
 #soilFormingFactors {
-  background-image: url('../imgs/photos/dig/soilFromingFactors.jpg');
+  background-image: url('../imgs/photos/dig/soilFormingFactors.jpg');
 }
 
 #soilEnvironment {
@@ -376,7 +378,7 @@ a.nav {
   display: inline-block;
   position: absolute;
   text-decoration: none;
-  top: 40vh;
+  top: 50vh;
   right:0;
   background: rbg(0,0,0,0);
   padding: 10px;
@@ -388,8 +390,8 @@ a.nav.next {
 }
 
 a.nav.next img {
-  height: 100px;
-  width: 100px;
+  height: 40x;
+  width: 40px;
 }
 
 a.nav.prev {
@@ -397,6 +399,6 @@ a.nav.prev {
 }
 
 a.nav.prev img{
-  height: 100px;
-  width: 100px;
+  height: 40px;
+  width: 40px;
 }
