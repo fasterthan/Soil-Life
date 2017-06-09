@@ -10,13 +10,13 @@
 
 
 // Nested Array [icon,text,color]
-var changeArray =[ ["6Fs-Food No Text.svg","Eat Food","#ee6a7c"],
-                   ["6Fs-Filter No Text.svg","Breathe Air","#195ba7"],
-                   ["6Fs-Filter No Text.svg","Drink Water","#195ba7"],
-                   ["6Fs-FiberFuel No Text.svg","Wear Clothes","#fac718"],
-                   ["6Fs-Foundation No Text.svg","Live in a Shelter","#544d50"],
-                   ["6Fs-Farmaceuticals No Text.svg","Use Medicine","#fa6a33"],
-                   ["6Fs-Fun No Text.svg","Enjoy the Outdoors","#36ae99"]
+var changeArray =[ ["6Fs-Food No Text.svg","eat food","#ee6a7c"],
+                   ["6Fs-Filter No Text.svg","breathe air","#195ba7"],
+                   ["6Fs-Filter No Text.svg","drink water","#195ba7"],
+                   ["6Fs-FiberFuel No Text.svg","wear clothes","#fac718"],
+                   ["6Fs-Foundation No Text.svg","live in a shelter","#544d50"],
+                   ["6Fs-Farmaceuticals No Text.svg","use medicine","#fa6a33"],
+                   ["6Fs-Fun No Text.svg","enjoy the outdoors","#36ae99"]
                  ];
 
 var counter = 0;
@@ -43,3 +43,9 @@ function change() {
 }
 
 change();
+
+
+
+/* //////////////////////////////////////////// */
+/* /////////// Navbar on Scroll /////////////// */
+/* //////////////////////////////////////////// */

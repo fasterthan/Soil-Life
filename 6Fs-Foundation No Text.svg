@@ -6,19 +6,19 @@
 <g id="brown_background_for_context">
 </g>
 <g id="background_circles">
-	<circle fill="#5C5052" cx="176.92" cy="182.942" r="119.117"/>
+	<circle fill="#5C5052" cx="180" cy="180.053" r="119.117"/>
 </g>
 <g id="white_imagery__x2B__text">
 	<g>
-		<rect x="93.821" y="196.119" fill="#FFFFFF" width="37.451" height="18.725"/>
-		<rect x="137.959" y="196.119" fill="#FFFFFF" width="37.45" height="18.725"/>
-		<rect x="181.316" y="196.119" fill="#FFFFFF" width="37.45" height="18.725"/>
-		<rect x="225.063" y="196.119" fill="#FFFFFF" width="37.45" height="18.725"/>
-		<rect x="200.041" y="171.486" fill="#FFFFFF" width="37.451" height="18.726"/>
-		<rect x="156.685" y="171.486" fill="#FFFFFF" width="37.45" height="18.726"/>
-		<rect x="112.547" y="171.486" fill="#FFFFFF" width="37.45" height="18.726"/>
-		<rect x="134.198" y="146.563" fill="#FFFFFF" width="37.45" height="18.725"/>
-		<rect x="179.533" y="146.563" fill="#FFFFFF" width="37.45" height="18.725"/>
+		<rect x="96.9" y="193.229" fill="#FFFFFF" width="37.451" height="18.725"/>
+		<rect x="141.038" y="193.229" fill="#FFFFFF" width="37.45" height="18.725"/>
+		<rect x="184.396" y="193.229" fill="#FFFFFF" width="37.45" height="18.725"/>
+		<rect x="228.143" y="193.229" fill="#FFFFFF" width="37.45" height="18.725"/>
+		<rect x="203.12" y="168.597" fill="#FFFFFF" width="37.451" height="18.726"/>
+		<rect x="159.764" y="168.597" fill="#FFFFFF" width="37.45" height="18.726"/>
+		<rect x="115.626" y="168.597" fill="#FFFFFF" width="37.45" height="18.726"/>
+		<rect x="137.277" y="143.674" fill="#FFFFFF" width="37.45" height="18.725"/>
+		<rect x="182.612" y="143.674" fill="#FFFFFF" width="37.45" height="18.725"/>
 	</g>
 </g>
 </svg>
