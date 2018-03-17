@@ -33,20 +33,15 @@
 /* /////////////////////////// */
 
 .navbar {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 1);
   color: #ee6a7c;
   height: 80px;
-  transition-duration: 1s;
 }
 /* color nav links */
 
 .nav-link {
   color: #ee6a7c;
-  font-size: 3vh;
-
 }
-
-
 
 /* /////////////////////////////// */
 /*  LANDING PAGE / JUMBOTRON START */
@@ -56,16 +51,11 @@
 
 .jumbotron {
   background-image: url('../imgs/photos/HeaderPhoto1.jpg');
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  height: 120vh;
-  width: 100%;
-]
+  height: 100vh;
 
 
 }
@@ -115,7 +105,7 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 
 }
 #wheel {
@@ -155,7 +145,7 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 }
 
 #healthySoils {
@@ -187,7 +177,7 @@
 /* /////////////////////////////////////////////// */
 
 .sixFsofSoil {
-  height: 120vh;
+  height: 100vh;
 }
 .sixFsDEMO {
   color:#32A894;
@@ -233,7 +223,7 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 
 }
 
@@ -272,7 +262,7 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 }
 
 .genesisTear {
@@ -316,7 +306,7 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 }
 
 #dig1 {
@@ -361,7 +351,7 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 }
 
 #index1 {
@@ -401,7 +391,7 @@
   background-position: center bottom;
   background-repeat:no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
 }
 
 /* NEXT ARROWS */
@@ -422,8 +412,8 @@ a.nav.next {
 }
 
 a.nav.next img {
-  height: 75px;
-  width: 75px;
+  height: 40px;
+  width: 40px;
   z-index: 99;
 }
 
@@ -432,17 +422,8 @@ a.nav.prev {
 }
 
 a.nav.prev img{
-  height: 60px;
-  width: 60px;
-}
-
-/* //////////////////////////////////////////// */
-/* ////////////// FOOTER     ////////////////// */
-/* //////////////////////////////////////////// */
-
-#footer {
-  padding-top: 4vh;
-  padding-bottom: 4vh;
+  height: 40px;
+  width: 40px;
 }
 
 #footerText p {
@@ -459,37 +440,9 @@ a.nav.prev img{
     position: absolute;
     top: 2vh;
     right: 0;
-    width: 80vh;
+    width: 400px;
     font-size: 4vh;
     background: #ee6a7c;
-    padding: .8%;
+    padding: .5%;
     text-align:left;
-    display: inline-block;
 }
-
-#footerTear h2 span {
-  margin-left: 2vh;
-}
-
-.socialMediaIcons {
-  height:7vh;
-  width:7vh;
-}
-
-.socialMediaIconsDiv {
-  margin-top: 10vh;
-  margin-right: 50vh;
-  height:auto;
-  width:35vh;
-}
-
-.signup {
-  margin-top:-9vh;
-  margin-left: 40vh;
-  color: #ee6a7c;
-  font-size: 3vh;
-  text-align: left;
-}
-
-
-/* sticky divs */
