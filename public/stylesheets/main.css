@@ -1,0 +1,41 @@
+/*
+ * Site wide CSS goes here like classes, things that affect main components, etc...
+ */
+
+/* BEGIN main components  */
+  body {
+    margin: 0px;
+    padding: 0px;
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  h1, h2 {
+    margin: 0px;
+    text-align: center;
+    font-weight: lighter;
+  }
+/* END main components  */
+
+/* BEGIN introduction section */
+  #introduction {
+    background-color: forestgreen;
+    color: white;
+  }
+  #introduction h1 {
+    font-size: 2em;
+  }
+  #introduction h2 {
+    font-size: 1.25em;
+    margin-bottom: 8px;
+  }
+  figure {
+    margin: 0px;
+  }
+  img {
+    width: 100%;
+  }
+  figcaption {
+    color: #dddd;
+    text-align: center;
+    font-style: italic;
+  }
+/* END introduction section */
