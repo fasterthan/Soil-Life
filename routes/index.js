@@ -6,28 +6,39 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Soil Life' });
 });
 
-/* GET home page. */
+/* GET soilCircle page. */
 router.get('/soilCircle', function(req, res, next) {
-  res.render('soilCircle', { title: 'Soil Life' });
+  res.render('soilCircle', {});
 });
 
-/* GET home page. */
+/* GET sixFs page. */
 router.get('/sixFs', function(req, res, next) {
-  res.render('sixFs', { title: 'Soil Life' });
+  res.render('sixFs', {});
 });
 
-/* GET home page. */
+/* GET webOfSoil page. */
+router.get('/webOfSoil', function(req, res, next) {
+  res.render('webOfSoil', {});
+});
+
+/* GET media page. */
+router.get('/media', function(req, res, next) {
+  res.render('media', {});
+});
+
+/* GET soils101 page. */
 router.get('/soils101', function(req, res, next) {
-  res.render('soils101', { title: 'Soil Life' });
+  res.render('soils101', {});
 });
 
-/* GET home page. */
+/* GET involved page. */
 router.get('/involved', function(req, res, next) {
-  res.render('involved', { title: 'Soil Life' });
+  res.render('involved', {});
 });
 
+/* GET about page. */
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'Soil Life' });
+  res.render('about', {});
 });
 
 module.exports = router;
