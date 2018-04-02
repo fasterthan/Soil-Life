@@ -22,7 +22,7 @@ With a templating engine the "logic" to display server content in the HTML is ha
 
 Templates live in the **views** folder of our Express app and since we are using EJS their file names end with `.ejs`. EJS files are just HTML files that you can add special EJS code to add logic. In fact, we don't have to use EJS at all in the .ejs files, and for most of the website we probably won't. The power is in how easy Express makes it to serve these html files in its framework.
 
-Learn about EJS syntax here: https://github.com/mde/ejs#features
+Learn about EJS syntax here: https://github.com/mde/ejs#features 
 
 
 
