@@ -44,6 +44,11 @@
   font-size: 3vh;
 }
 
+.logo {
+  width:240px;
+  height:80px;
+}
+
 /* /////////////////////////////// */
 /*  LANDING PAGE / JUMBOTRON START */
 /* /////////////////////////////// */
@@ -61,8 +66,22 @@
 
 }
 
+/* //////////////////////////////////////////// */
+/* ////////////// MAIN CONTENT  ////////////////// */
+/* //////////////////////////////////////////// */
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:#66ccff;
+  padding: 10px;
+}
 
-
+.grid-item {
+  border: 1px solid rgba(0,0,0,0.8);
+  padding: 20px;
+  text-align:center;
+  background-color: rgba(255,255,255,0.8);
+}
 
 /* //////////////////////////////////////////// */
 /* ////////////// ABOUT US   ////////////////// */
