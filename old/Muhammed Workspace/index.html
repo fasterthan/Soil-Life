@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="fullpage.js/dist/jquery.fullPage.css" />
+
+			<link rel="stylesheet" type="text/css" href="tempsoil.css" />
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			
+			<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+			<script src="fullpage.js/vendors/jquery.easings.min.js"></script>
+			
+			
+			<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+			<script type="text/javascript" src="fullpage.js/vendors/scrolloverflow.min.js"></script>
+			
+			<script type="text/javascript" src="fullpage.js/dist/jquery.fullPage.js"></script>
+	</head>
+	
+	<body>
+			<div id="fullpage">
+					<div class="section" id="splashPage">
+						<div class="navbar">
+							<ul class="logo">
+								<li>
+										<a href="index.html">
+											<img src="../logo.svg" width="180" height="80" alt="" class="logo">
+										</a>
+								</li>
+							</ul>
+							<ul id="navItems">
+								<li><a href="#home">about us</a></li>
+								<li><a href="#news">soil matters</a></li>
+								<li><a href="#contact">videos</a></li>
+								<li><a href="#about">soilX</a></li>
+								<li><a href="#about">get involved</a></li>
+							</ul>
+						</div><br><br><br><br><br><br><br><br><br>
+						<div class="jumbotron">
+							<h2 class="jumboText">we all share<br>common ground.<br></h2>
+							<h3 class="jumboTear">get dirty. get connected.</h3>
+						</div>
+					</div>
+
+					<div class="section" id="soilCircle">
+				
+						<div class="slide" id="soilCirclePage"><!-- Placeholder section --></div>
+						<div class="slide" id="healthySoils"> </div>
+						<div class="slide" id="healthyPlants"> </div>
+						<div class="slide" id="healthyPeople"> </div>
+						<div class="slide" id="healthyCommunities"> </div>
+						<div class="slide" id="healthyEconomies"> </div>
+						<div class="slide" id="healthyPlanet"> </div>
+					</div>
+
+					<div class="section" id="sixFs">
+							
+						<div class="slide" id="sixFsPage">sixFs Main Slide</div>
+						<div class="slide" id="food"> </div>
+						<div class="slide" id="fiber"> </div>
+						<div class="slide" id="filter"> </div>
+						<div class="slide" id="foundation"> </div>
+						<div class="slide" id="farmaceuticals"> </div>
+						<div class="slide" id="fun"> </div>
+					</div>
+
+					<!--<div class="section">Media</div>-->
+
+					<div class="section" id="soils101">
+							<div class="slide" id="soilMattersIntro"> soil matters intro </div>
+							<div class="slide" id="soilSpheres"> </div>
+							<div class="slide" id="soilFormingFactors"> </div>
+							<div class="slide" id="soilEnvironment"> </div>
+							<div class="slide" id="soilBiology"> </div>
+							<div class="slide" id="soilChemistry"> </div>
+							<div class="slide" id="soilOrders"> </div>
+							<div class="slide" id="soilHealth"> </div>
+							<div class="slide" id="soilRisk"> </div>
+					</div>
+
+					<div class="section" id="involved">
+							<div class="slide" id="involvedPage"> </div>
+							<div class="slide" id="atHome"> </div>
+							<div class="slide" id="inCommunity"> </div>
+							<div class="slide" id="legislation"> </div>
+							<div class="slide" id="socialMedia"> </div>
+							<div class="slide" id="education"> </div>
+							<div class="slide" id="donations"> </div>	
+					</div>
+
+					<div class="section" id="about">
+						<div class="slide" id="aboutPage"> </div>
+						<div class="slide" id="whatWeDo"> whatWeDo </div>
+						<div class="slide" id="team"> team </div>
+						<div class="slide" id="contact"> contact </div>
+					</div>
+			</div>
+
+			<script>
+				$(document).ready(function() {
+					$('#fullpage').fullpage();
+				});
+			</script>
+	</body>
+</html>

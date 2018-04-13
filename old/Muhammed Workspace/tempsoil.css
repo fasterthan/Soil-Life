@@ -12,31 +12,38 @@
   letter-spacing: 1px;
 }
 
-
-#splash{
-    background-image: url("https://i.imgur.com/HuOuJ8b.jpg");;
+.section{
+    text-align:center;
 }
 
-#splash p{
+.section{
+    background-size: cover;
+}
+
+.slide{
+    background-size: contain;
+}
+
+.jumboText{
     /*font-size: 40px;
     color: white;*/
     padding-left: 14%;
     font-size: 9.5vh;
     color: white;
-    /*position: absolute;*/
+    position: absolute;
     top: 45vh;
     left: 0;
     line-height: 10vh;
 
 }
 
-#border{
+.jumboTear{
     
     margin-left: 14%;
     padding-left: 1%;
     padding-right: 0%;
     color: white;
-    /*position: absolute;*/
+    position: absolute;
     top: 66vh;
     left: 0;
     width: 60%;
@@ -48,27 +55,174 @@
 .navbar {
     background: rgba(0,0,0,0.5);
     padding:10px;
-    height:100px;
-    position:fixed;
+    height:80px;
+    position: fixed;
     width:100%;
     top: 0;
 
   }
 
-  html, body{
+html, body{
     margin:0;
     padding:0;
 }
 
-
-
-#logo{
+.logo{
     float: left
 }
 
-li
+#splashPage{
+    background-image: url("../imgs/photos/headerPhoto1.jpg");
+}
+
+#soilCirclePage{
+    background-image: url("../imgs/photos/wheel/soilWheel.jpg");
+    padding: 6% 0 0 0;
+}
+
+#healthySoils{
+    background-image: url("../imgs/photos/wheel/wheel-soil.jpg");
+    padding: 6% 0 0 0;
+}
+
+#healthyPlants{
+    background-image: url("../imgs/photos/wheel/wheel-plants.jpg");
+    padding: 6% 0 0 0;
+}
+
+#healthyPeople{
+    background-image: url("../imgs/photos/wheel/wheel-people.jpg");
+    padding: 6% 0 0 0;
+}
+
+#healthyCommunities{
+    background-image: url("../imgs/photos/wheel/wheel-communities.jpg");
+    padding: 6% 0 0 0;
+}
+
+#healthyEconomies{
+    background-image: url("../imgs/photos/wheel/wheel-economies.jpg");
+    padding: 6% 0 0 0;
+}
+
+#healthyPlanet{
+    background-image: url("../imgs/photos/wheel/wheel-planet.jpg");
+    padding: 6% 0 0 0;
+}
+
+#food{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Food.jpg");
+    padding: 6% 0 0 0;
+}
+
+#fiber{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Fiber.jpg");
+    padding: 6% 0 0 0;
+}
+
+#filter{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Filter.jpg");
+    padding: 6% 0 0 0;
+}
+
+#foundation{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Foundation.jpg");
+    padding: 6% 0 0 0;
+}
+
+#farmaceuticals{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Farmaceuticals.jpg");
+    padding: 6% 0 0 0;
+}
+
+#fun{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Fun.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilSpheres{
+    background-image: url("../imgs/photos/dig/soilSpheres.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilFormingFactors{
+    background-image: url("../imgs/photos/dig/soilFormingFactors.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilEnvironment{
+    background-image: url("../imgs/photos/dig/soilEnvironment.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilBiology{
+    background-image: url("../imgs/photos/dig/soilBiology.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilChemistry{
+    background-image: url("../imgs/photos/dig/soilChemistry.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilOrders{
+    background-image: url("../imgs/photos/dig/soilComplexity.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilHealth{
+    background-image: url("../imgs/photos/dig/soilHealthDifferent.jpg");
+    padding: 6% 0 0 0;
+}
+
+#soilRisk{
+    background-image: url("../imgs/photos/dig/soilRisk.jpg");
+    padding: 6% 0 0 0;
+}
+
+#involvedPage{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-Index1.jpg");
+    padding: 6% 0 0 0;
+}
+
+#atHome{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-atHome.jpg");
+    padding: 6% 0 0 0;
+}
+
+#inCommunity{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-inCommunity.jpg");
+    padding: 6% 0 0 0;
+}
+
+#legislation{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-legislation.jpg");
+    padding: 6% 0 0 0;
+}
+
+#socialMedia{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-socialMedia.jpg");
+    padding: 6% 0 0 0;
+}
+
+#education{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-education.jpg");
+    padding: 6% 0 0 0;
+}
+
+#donations{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-donations.jpg");
+    padding: 6% 0 0 0;
+}
+
+#aboutPage{
+    background-image: url("../imgs/photos/getInvolved/getInvolved-Index2.jpg");
+    padding: 6% 0 0 0;
+}
+
+#navItems li
 {
-list-style-type: none;
-padding-right: 20px;
-float: right;
+    list-style-type: none;
+    padding-right: 20px;
+    float: right;
 }
