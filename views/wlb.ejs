@@ -53,29 +53,77 @@
       <%= title %>
     </h1>
   </section>
-  <div class="grid-container">
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
-    <div class="grid-item">7</div>
-    <div class="grid-item">8</div>
-    <div class="grid-item">9</div>
-    <div class="grid-item">10</div>
-    <div class="grid-item">11</div>
-    <div class="grid-item">12</div>
+  <div class="grid-container" id="lightgallery">
+    <div data-src="/images/wlb/profile/Alfisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Alfisol_surface.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Andisol_surface_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Aridisol_surface_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Entisol_surface_Killburn_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Gelisol_surface_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Inceptisol_surface_Dellwood_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Mollisol_surface_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Ultisol_surface_Barnwell_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Vertisol_surface_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Alfisol_surface_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Alfisol_surface_WLB.jpg" />
+      </a>
+    </div>
+    <div data-src="/images/wlb/profile/Andisol_profile_WLB.jpg" class="grid-item">
+      <a data-sub-html="#caption">
+        <img src="/images/wlb/landscape/Alfisol_surface_WLB.jpg" />
+      </a>
+    </div>
+
+
   </div>
-  <div id="lightgallery">
-    <a data-src="/images/treeling.jpg">
-        <img src="/images/logo.svg" />
-    </a>
   </div>
+
   <script src="./dist/js/lightgallery.min.js"></script>
   <script type="text/javascript">
-    lightGallery(document.getElementById('lightgallery')); 
-</script>
+    lightGallery(document.getElementById('lightgallery'));
+    lightGallery(document.getElementById('captions'));
+  </script>
 </body>
 
 </html>
