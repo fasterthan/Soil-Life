@@ -13,7 +13,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
     crossorigin="anonymous"></script>
-
+  <link type="text/css" rel="stylesheet" href="./dist/css/lightgallery.css" />
 </head>
 
 <body>
@@ -67,6 +67,15 @@
     <div class="grid-item">11</div>
     <div class="grid-item">12</div>
   </div>
+  <div id="lightgallery">
+    <a data-src="/images/treeling.jpg">
+        <img src="/images/logo.svg" />
+    </a>
+  </div>
+  <script src="./dist/js/lightgallery.min.js"></script>
+  <script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery')); 
+</script>
 </body>
 
 </html>
