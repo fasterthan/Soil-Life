@@ -53,9 +53,16 @@
       <%= title %>
     </h1>
   </section>
-  <div class="grid-container" id="lightgallery">
-    <div data-src="/images/wlb/profile/Alfisol_profile_WLB.jpg" class="grid-item">
-      <a data-sub-html="#caption">
+
+  <div id="caption2" style="display:none">
+    <h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>
+</div>
+<div class="caption3" style="display:none">
+    <h4>Sunset Serenity</h4><p>A gorgeous Sunset tonight captured at Coniston Water....</p>
+</div>   
+  <div class="grid-container" id="captions">
+    <div data-src="/images/wlb/profile/Alfisol_profile_WLB.jpg" class="grid-item" data-sub-html="#caption2" >
+      <a>
         <img src="/images/wlb/landscape/Alfisol_surface.jpg" />
       </a>
     </div>
@@ -121,8 +128,16 @@
 
   <script src="./dist/js/lightgallery.min.js"></script>
   <script type="text/javascript">
-    lightGallery(document.getElementById('lightgallery'));
-    lightGallery(document.getElementById('captions'));
+    lightGallery(document.getElementById('lightgallery'), {
+      width: '700px',
+      height: '470px',
+      addClass: 'fixed-size',
+    });
+    lightGallery(document.getElementById('captions'), {
+      width: '700px',
+      height: '470px',
+      addClass: 'fixed-size',
+    });
   </script>
 </body>
 

@@ -93,6 +93,14 @@
 
 }
 
+.lg-backdrop.in {
+  opacity: 0.85 !important;
+}
+
+#caption2 {
+  background-color:blue !important;
+}
+
 /* //////////////////////////////////////////// */
 
 /* ////////////// ABOUT US   ////////////////// */
