@@ -80,26 +80,39 @@
 }
 
 .grid-item {
-  padding: 20px;
-  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  margin: 20px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  border-color: #5B5052;
+  border-style:solid;
 }
+
 .grid-item img {
   height: 192px;
   width: 290px;
-  border-style: solid;
-  border-color: #5B5052;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  -moz-transition: all 0.1s;
 
 }
+.grid-item:hover img{
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  opacity: 0.5;
+}
+
 
 .lg-backdrop.in {
-  opacity: 0.85 !important;
+  opacity: 0.8 !important;
 }
 
 #caption2 {
   background-color:blue !important;
 }
+
 
 /* //////////////////////////////////////////// */
 
