@@ -147,7 +147,7 @@
             recordHistory: true,
 
             //design
-            controlArrows: true,
+            controlArrows: false,      // to determine if control arrows should show 
             controlArrowColor: '#fff',
             verticalCentered: true,
             sectionsColor : [],

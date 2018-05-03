@@ -24,6 +24,10 @@
     background-size: contain;
 }
 
+.jumbotron{
+    text-align: left;
+}
+
 .jumboText{
     /*font-size: 40px;
     color: white;*/
@@ -34,6 +38,8 @@
     top: 45vh;
     left: 0;
     line-height: 10vh;
+    font-weight: 100;
+    padding-bottom: 150px;
 
 }
 
@@ -50,6 +56,7 @@
     font-size: 5vh;
     background: #ee6a7c;
     padding: .8%;
+    font-weight: 100;
 }
 
 .navbar {
@@ -80,7 +87,7 @@ html, body{
     padding: 6% 0 0 0;
 }
 
-#healthySoils{
+/*#healthySoils{
     background-image: url("../imgs/photos/wheel/wheel-soil.jpg");
     padding: 6% 0 0 0;
 }
@@ -93,7 +100,7 @@ html, body{
 #healthyPeople{
     background-image: url("../imgs/photos/wheel/wheel-people.jpg");
     padding: 6% 0 0 0;
-}
+} 
 
 #healthyCommunities{
     background-image: url("../imgs/photos/wheel/wheel-communities.jpg");
@@ -108,7 +115,7 @@ html, body{
 #healthyPlanet{
     background-image: url("../imgs/photos/wheel/wheel-planet.jpg");
     padding: 6% 0 0 0;
-}
+} */
 
 #food{
     background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Food.jpg");
@@ -138,6 +145,27 @@ html, body{
 #fun{
     background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Fun.jpg");
     padding: 6% 0 0 0;
+}
+
+#soils101{
+    padding-top: 110px;
+}
+
+#soilMattersText1{
+    font-size: 48px;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 165px;
+   
+}
+
+#soilMattersText2{
+    font-size: 55px;
+    text-align: right;
+    padding-top: 120px;
+    padding-right: 265px;
+    padding-bottom: 75px;
+    font-weight: 900;
 }
 
 #soilSpheres{
@@ -181,8 +209,28 @@ html, body{
 }
 
 #involvedPage{
-    background-image: url("../imgs/photos/getInvolved/getInvolved-Index1.jpg");
-    padding: 6% 0 0 0;
+    /*background-image: url("../imgs/photos/getInvolved/getInvolved-Index1.jpg");
+    padding: 6% 0 0 0;*/
+    display: inline-block;
+}
+
+#involvedPageText1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom:50px;
+    padding-left: 220px;
+    font-size: 30px;
+    line-height: 200%;
+    font-weight: 900;
+}
+
+#involvedPageText2{
+    text-align: center;
+    padding-bottom:200px;
+    padding-left: 220px;
+    font-size: 30px;
+    line-height: 200%; 
+    font-weight: 100;
 }
 
 #atHome{
@@ -216,13 +264,53 @@ html, body{
 }
 
 #aboutPage{
-    background-image: url("../imgs/photos/getInvolved/getInvolved-Index2.jpg");
-    padding: 6% 0 0 0;
+    /*background-image: url("../imgs/photos/getInvolved/getInvolved-Index2.jpg");
+    padding: 6% 0 0 0;*/
+    display: inline-block;
 }
 
-#navItems li
-{
+#aboutPageText1{
+    text-align: center;
+    padding-left: 120px;
+    font-size: 30px;
+    line-height: 200%;
+    font-weight: 900; 
+}
+
+#aboutPageText2{
+    text-align: center;
+    padding-left: 120px;
+    font-size: 30px;
+    line-height: 200%; 
+    font-weight: 100;
+}
+
+#navItems li{
     list-style-type: none;
     padding-right: 20px;
     float: right;
+}
+
+#soilCircleTitles{
+    text-align: left;
+    padding-left: 55px;
+    font-size: 40px;
+}
+
+#sixFsMain{
+    text-align: center;
+    font-size: 35px;
+    line-height: 120%;
+    padding-top: 85px;
+}
+
+#soilCircleText{
+    /*position: absolute;*/
+    text-align: left;
+    padding-left: 55px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    line-height: 200%;
+    /*bottom: 8px;
+    left: 16px;*/
 }
