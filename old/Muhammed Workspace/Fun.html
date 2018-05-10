@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="fullpage.js/dist/jquery.fullPage.css" />
+
+			<link rel="stylesheet" type="text/css" href="SixF.css" />
+
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+			<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+			<script src="fullpage.js/vendors/jquery.easings.min.js"></script>
+			
+			
+			<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+			<script type="text/javascript" src="fullpage.js/vendors/scrolloverflow.min.js"></script>
+			
+			
+			<script type="text/javascript" src="fullpage.js/dist/jquery.fullPageSixF.js"></script>
+	</head>
+	<body>
+			<div id="fullpage">
+				<center>
+					<div class="section" id="fun">
+                        
+					</div>
+					<div class="section" id="video">
+						<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+							width="840" height="640" src="https://www.youtube.com/embed/xzthQyMaQaQ"
+							frameborder="0" allowFullScreen>
+						</iframe>
+					</div>
+					<div class="section">
+						Placeholder#1
+					</div>
+					<div class="section">
+						Placeholder#2
+					</div>
+				</center>
+			</div>
+
+			<script>
+				$(document).ready(function() {
+					$('#fullpage').fullpage();
+				});
+			</script>
+	</body>
+</html>

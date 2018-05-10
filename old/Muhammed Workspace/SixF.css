@@ -1,0 +1,33 @@
+.section{
+    background-size: cover;
+}
+
+#food{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Food.jpg");
+    padding: 6% 0 0 0;
+}
+
+#fiber{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Fiber.jpg");
+    padding: 6% 0 0 0;
+}
+
+#filter{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Filter.jpg");
+    padding: 6% 0 0 0;
+}
+
+#foundation{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Foundation.jpg");
+    padding: 6% 0 0 0;
+}
+
+#farmaceuticals{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Farmaceuticals.jpg");
+    padding: 6% 0 0 0;
+}
+
+#fun{
+    background-image: url("../imgs/photos/fScroll/6Fs-Scroll-Fun.jpg");
+    padding: 6% 0 0 0;
+}
